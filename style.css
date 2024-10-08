@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/* for divs */ 
+div {
+  padding: 30px;
+  height: 200px;
+}
+#d01 {
+  background: linear-gradient(
+    to right, 
+    #292F49, #526875
+    ); 
+  color: #FFFFFF;
+}
+#d02 {
+  background: linear-gradient(
+    to right,
+    #F8FFD1, #A2FFCD
+    );
+}
+#d03 {
+  background: linear-gradient(
+    to right,
+    #FEF3A1, #FFE25A
+    );
+}
+
+/* text inside divs */
