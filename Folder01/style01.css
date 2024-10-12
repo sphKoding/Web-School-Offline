@@ -1,0 +1,89 @@
+body {
+  margin: 0 0 0 0;
+}
+
+/* for nav */
+nav {
+  background: linear-gradient(
+    to right, 
+    #38EF7D, #25C585, #129A8C
+    );
+}
+nav img {
+  height: 35px;
+}
+
+/* content padding */
+h1, h2, h3, h4, p, a, button {
+  margin: 18px;
+}
+
+/* hr line breaks */
+hr {
+  height: 1px;
+  border-width:0;
+  color: #EEEEEE;
+  background-color: #EEEEEE;
+}
+
+/* introduction */
+.intro {
+  padding: 5px;
+  background: linear-gradient(
+    to right, 
+    #F7FFD0, #A2FFCD 
+    );
+}
+.intro p {
+  margin: 8px;
+}
+
+/* buttons */
+button {
+  margin: 5px;
+  border: none;
+  border-radius: 33px;
+  padding: 10px;
+}
+nav button {
+  margin: 0px;
+}
+#b-darkgreen {
+  background: #25C585;
+}
+#b-darkgreen, #ex-button {
+  color: #FFFFFF;
+}
+
+/* for examples */
+.ex-container,.code-container {
+  padding: 5px;
+}
+.ex-container {
+  background: #EEEEEE;
+}
+.code-container {
+  margin: 8px;
+  background: #282C35;
+}
+/* codes inside example */
+#bracket {
+  color: #90B9B2;
+}
+#c-red {
+  color: #CAA1A7;
+}
+#pastel-purple {
+  color: #B1A5B7;
+}
+.code-container p {
+  color: #FFFFFF;
+}
+/* button for examples */
+#ex-button {
+  border-radius: 15px;
+  background: linear-gradient(
+    to left, 
+    #38EF7D, #25C585, #129A8C
+    );
+}
